@@ -1,1 +1,0 @@
-- Bildirim verdikten sonra devam et diyebileceğim ekran çıkaran fonksiyon yaz
