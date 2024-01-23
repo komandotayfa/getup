@@ -1,1 +1,1 @@
-# getup
+An app that remind me to get up
