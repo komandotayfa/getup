@@ -5,7 +5,7 @@ def remind_to_get_up():
     notification.notify(
         title='Time to Take a Break!',
         message='It\'s been an hour. Take a break, stretch, and relax for a while.',
-        app_icon='stop.ico',  # You can provide an icon path if you have one
+        app_icon=None,  # You can provide an icon path if you have one
         timeout=20  # The notification will disappear after 10 seconds
     )
 
