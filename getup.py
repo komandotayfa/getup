@@ -1,6 +1,6 @@
 import time
 import tkinter as tk
-from plyer import notification  # You may need to install the plyer library using: pip install plyer
+from plyer import notification
 
 def create_gui():
     # Create the Tkinter window
@@ -18,9 +18,8 @@ def create_gui():
 
 def remind_to_get_up():
     notification.notify(
-        title='Time to Take a Break!',
-        message='It\'s been an hour. Take a break, stretch, and relax for a while.',
-        app_icon=None,  # You can provide an icon path if you have one
+        title='KALK!',
+        message='KALK LAN!',
         timeout=20  # The notification will disappear after 10 seconds
     )
 
