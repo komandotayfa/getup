@@ -26,7 +26,7 @@ def remind_to_get_up():
 
 if __name__ == "__main__":
     # Set the interval to 1 hour (3600 seconds)
-    interval_seconds = 3
+    interval_seconds = 3600
     while True:
             time.sleep(interval_seconds)  # Sleep for the specified interval
             remind_to_get_up()
