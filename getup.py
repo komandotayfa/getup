@@ -1,5 +1,20 @@
 import time
+import tkinter as tk
 from plyer import notification  # You may need to install the plyer library using: pip install plyer
+
+def create_gui():
+    # Create the Tkinter window
+    root = tk.Tk()
+    root.title("KAPAT")
+
+    # Create a label
+    label = tk.Label(root, text="Devam Etmek İçin Kapat!")
+
+    # Pack the label and button into the window
+    label.pack(pady=10)
+
+    # Start the Tkinter event loop
+    root.mainloop()
 
 def remind_to_get_up():
     notification.notify(
@@ -11,8 +26,8 @@ def remind_to_get_up():
 
 if __name__ == "__main__":
     # Set the interval to 1 hour (3600 seconds)
-    interval_seconds = 3600
-
+    interval_seconds = 3
     while True:
-        time.sleep(interval_seconds)  # Sleep for the specified interval
-        remind_to_get_up()
+            time.sleep(interval_seconds)  # Sleep for the specified interval
+            remind_to_get_up()
+            create_gui()
