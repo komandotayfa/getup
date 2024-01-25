@@ -8,7 +8,7 @@ def create_gui():
     root.title("KAPAT")
 
     # Create a label
-    label = tk.Label(root, text="Devam Etmek İçin Kapat!")
+    label = tk.Label(root, text="KAPAT ŞUNU!")
 
     # Pack the label and button into the window
     label.pack(pady=10)
