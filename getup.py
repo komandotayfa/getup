@@ -13,6 +13,8 @@ def getup():
     notification.notify(
         title='KALK!',
         message='KALK LAN!',
+        app_name="getup",
+        app_icon="icon.ico",
         timeout=20  # Saniye/Seconds
     )
 
